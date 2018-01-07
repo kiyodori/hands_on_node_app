@@ -1,6 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var Support = sequelize.define('Support', {
+  var support = sequelize.define('support', {
     support_id: DataTypes.INTEGER,
     name: DataTypes.STRING,
     prefecture_id: DataTypes.INTEGER
@@ -12,5 +12,5 @@ module.exports = (sequelize, DataTypes) => {
       }
     }
   });
-  return Support;
+  return support;
 };
