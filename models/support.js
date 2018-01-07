@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     prefecture_id: DataTypes.INTEGER
   }, {
+    underscored: true,
     classMethods: {
       associate: function(models) {
         // associations can be defined here
