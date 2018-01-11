@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "support": "node ./bin/shisakuSupport"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
@@ -13,6 +14,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "mysql2": "^1.5.1",
+    "request": "^2.83.0",
     "sequelize": "^4.28.7",
     "sequelize-cli": "^3.2.0",
     "serve-favicon": "~2.4.5"
