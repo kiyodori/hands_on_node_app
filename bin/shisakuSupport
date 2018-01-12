@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const Shisaku = require('../lib/shisaku');
+
+const shisaku = new Shisaku();
+shisaku.support();
