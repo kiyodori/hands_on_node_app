@@ -22,4 +22,22 @@ Node.js、Express、MySQLの入門書を読まれた方が、APIを使用して�
 ```
 $ git clone https://github.com/kiyodori/hands_on_node_app.git
 $ yarn install
+
+# データベースを作成します
+$ mysql -u root -p < config/db.sql
+
+# マイグレーションを実行します
+$ node_modules/.bin/sequelize db:migrate
+
+# APIからデータを取得します
+$ yarn support
+
+# サーバーを起動します
+$ yarn start
+```
+
+これでサーバーが起動しました。以下のURLにアクセスします。
+
+```
+http://localhost:3000/
 ```
